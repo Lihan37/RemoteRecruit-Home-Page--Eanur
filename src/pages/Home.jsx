@@ -4,6 +4,8 @@ import DifferenceSection from '../components/DifferenceSection.jsx';
 import FeaturesSection from '../components/FeaturesSection.jsx';
 import ShowcaseSection from '../components/ShowcaseSection.jsx';
 import HelpSection from '../components/HelpSection.jsx';
+import FAQSection from '../components/FAQSection.jsx';
+import Footer from '../components/Footer.jsx';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <FeaturesSection />
       <ShowcaseSection />
       <HelpSection />
+      <FAQSection />
+      <Footer />
     </main>
   );
 }
